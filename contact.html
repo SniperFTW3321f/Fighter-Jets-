@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/Contact.css">
+</head>
+<body class="bg-gray-900 text-gray-200">
+    <div class="container">
+        <a href="index.html" class="back-link">
+            &larr; Back to the aircraft list
+        </a>
+        <h1 class="text-3xl lg:text-4xl font-bold text-sky-400">Contact</h1>
+        
+        <p>You can contact us through the form below or via the contact information provided.</p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+            <div class="contact-form">
+                <form
+  action="https://formspree.io/f/xwprbnon"
+  method="POST"
+>
+    <label>
+        Your name:
+        <input class="name" type="text" name="name" ><br>
+  <label>
+    Your email:
+    <input class="email" type="email" name="email" !important><br>
+  </label>
+  <label>
+    Your message:
+    <textarea class="message" name="message"></textarea>
+  </label><br>
+<hover><button class="send-button" type="submit">Send</button></hover>
+</form>
+            </div>
+            
+            <div class="contact-info">
+                <p>
+                    Email: <a href="mail:wHoSnipey0u@gmail.com" class="text-sky-400 hover:text-sky-500">wHoSnipey0u@gmail.com</a>
+                </p>
+                <p>
+                    Phone: +373 700 000 000
+                </p>
+                <p>
+                    Address: Strada Aviației nr. 1, Hincesti, Moldova
+                
+                </p>
+            </div>
+        </div>
+    </div>
+        <footer class="bg-gray-800 text-gray-400 text-center py-8 mt-12">
+            <div class="container mx-auto">
+            <p>&copy; 2023 Fighter Jets. All rights reserved.</p>
+            <p class="mt-2">
+                <a href="privacy_policy.html" class="text-sky-400 hover:text-sky-500">Privacy Policy</a> |
+                <a href="contact.html" class="text-sky-400 hover:text-sky-500">Contact</a>
+            </p>
+            </div>
+        </footer>
+</body>
+</html>
